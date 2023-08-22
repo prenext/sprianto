@@ -9,64 +9,124 @@
       <title>Sprianto Iq</title>
 </head>
 <body>
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
-                  <a class="navbar-brand" href="#">Logo</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
-                              <li class="nav-item">
-                                    <a class="nav-link" href="#">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="#">Services</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                              </li>
-                        </ul>
+      <header class="navbar navbar-expand-lg navbar-light fixed-top">
+            <nav>
+                  <div class="container row-cols-2">
+                        <div class="row">
+                              <a class="navbar-brand" href="#">Logo</a>
+                        </div>
+                        <div class="row">
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse float-md-end" id="navbarNav">
+                                    <ul class="navbar-nav ml-auto">
+                                          <li class="nav-item">
+                                                <a class="nav-link" href="#">Home</a>
+                                          </li>
+                                          <li class="nav-item">
+                                                <a class="nav-link" href="#">About</a>
+                                          </li>
+                                          <li class="nav-item">
+                                                <a class="nav-link" href="#">Services</a>
+                                          </li>
+                                          <li class="nav-item">
+                                                <a class="nav-link" href="#">Contact</a>
+                                          </li>
+                                    </ul>
+                              </div>
+                        </div>
                   </div>
-            </div>
-      </nav>
-      
+            </nav>
+      </header>
+      <main class="pt-5">
       <!-- Image courosel -->
-<div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-            <div class="carousel-item active">
-                  <img src="https://picsum.photos/800/400/?random=1" class="img-responsive d-block w-100" alt="Slide 1">
-                  <div id="overlay1" class="carousel-overlay">
-                        <p class="overlay-text">Explaining Biodigester Company</p>
+      <section>
+          <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <img src="https://picsum.photos/800/400/?random=hole" class="img-responsive d-block w-100" alt="Slide 1">
+                        <div id="overlay1" class="carousel-overlay">
+                              <p class="overlay-text">Explaining Biodigester Company</p>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                        <img src="https://picsum.photos/800/400/?random=well" class="img-responsive d-block w-100" alt="Slide 2">
+                        <div id="overlay2" class="carousel-overlay">
+                              <p class="overlay-text">The other Biodigester Company</p>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                        <img src="https://picsum.photos/800/400/?random=tank" class="img-responsive d-block w-100" alt="Slide 3">
+                        <div id="overlay3" class="carousel-overlay">
+                              <p class="overlay-text">Another Example Slide</p>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                        <img src="https://picsum.photos/800/400/?random=septic" class="img-responsive d-block w-100" alt="Slide 4">
+                        <div id="overlay4" class="carousel-overlay">
+                              <p class="overlay-text">Yet Another Example Slide</p>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                        <img src="https://picsum.photos/800/400/?random=biodigester" class="img-responsive d-block w-100" alt="Slide 5">
+                        <div id="overlay5" class="carousel-overlay">
+                              <p class="overlay-text">One More Example Slide</p>
+                        </div>
                   </div>
             </div>
-            <div class="carousel-item">
-                  <img src="https://picsum.photos/800/400/?random=2" class="img-responsive d-block w-100" alt="Slide 2">
-                  <div id="overlay2" class="carousel-overlay">
-                        <p class="overlay-text">Explaining Biodigester Company</p>
-                  </div>
+            <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#imageCarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+            </a>
+           </div>
+      </section>
+
+      <!-- Description Section -->
+      <section class="description-section">
+            <div class="container">
+                  <h2>About Our Biodigester Services</h2>
+                  <p>We provide innovative biodigester solutions for sustainable waste management. Our services are designed
+                        to...</p>
             </div>
-            <!-- Add more carousel items with different random image numbers -->
-      </div>
-      <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#imageCarousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-      </a>
-</div>
+      </section>
+      </main>
+      <footer>
+      <!-- Contacts Section -->
+      <section class="contacts-section">
+            <div class="container">
+                  <h2>Contact Us</h2>
+                  <p>If you have any inquiries or would like to learn more about our services, feel free to get in touch with
+                        us:</p>
+                  <ul>
+                        <li>Email: <a href="mailto:info@biodigestercompany.com">info@biodigestercompany.com</a></li>
+                        <li>Phone: <a href="tel:+1234567890">+123 456 7890</a></li>
+                        <li>FaceBook: <a href="mailto:info@biodigestercompany.com">spriaanto iq</a></li>
+                        <li>Twitter: <a href="tel:+1234567890">@Sprianto_iq</a></li>
+                  </ul>
+            </div>
+      </section>
 
-
-
-
+      <!-- Links Section -->
+      <section class="links-section">
+            <div class="container">
+                  <h2>Links</h2>
+                  <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                  </ul>
+            </div>
+      </section>
+      </footer>
+      <!-- Scripts Section -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
       <script src="js/script.js"></script>
+
 </body>
 </html>
