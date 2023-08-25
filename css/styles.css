@@ -16,12 +16,11 @@ header {
       justify-content: space-around;
 }
 
-
-
 main {
       padding: 0;
       margin: 0;
 }
+
 section {
       border: 1px solid rgb(7, 129, 54);
       margin-top: 10vh;
