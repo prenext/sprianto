@@ -72,3 +72,17 @@ a:visited {
 }
 
 
+.card-container {
+      justify-content: space-between;
+      margin-top: 20px;
+}
+
+.card {
+      text-align: center;
+      padding: 20px;
+}
+
+.card img {
+      max-width: 100%;
+      height: auto;
+}
