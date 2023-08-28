@@ -22,7 +22,7 @@ main {
 }
 
 section {
-      border: 1px solid rgb(7, 129, 54);
+      /* border: 1px solid rgb(7, 129, 54); */
       margin-top: 10vh;
 }
 
@@ -32,13 +32,9 @@ section {
       left: 50%;
       transform: translate(-50%, -50%);
       width: 45%;
-      /* Adjust the width as needed */
-      height: 50%;
-      /* Adjust the height as needed */
       backdrop-filter: blur(5px);
       z-index: 1;
       border-radius: 15px;
-      /* Add rounded borders */
       display: flex;
       align-items: center;
       justify-content: center;
