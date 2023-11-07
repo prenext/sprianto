@@ -1,3 +1,4 @@
-import {LogoImage} from './LogoImage.styled'
+import { LogoImage } from './LogoImage.styled'
+import { WelcomeBG } from "./WelcomeBG.styled";
 
-export {LogoImage}
+export { LogoImage, WelcomeBG };
