@@ -19,11 +19,11 @@ function Header() {
         SpriantoIQ
       </Logo>
       <NavBar $isVisible={isNavBarVisible}>
-        <NavLink>Home</NavLink>
-        <NavLink>Services</NavLink>
-        <NavLink>Customers</NavLink>
-        <NavLink>Contacts US</NavLink>
-        <NavLink>About</NavLink>
+        <NavLink href="/">Home</NavLink>
+        <NavLink href="/services">Services</NavLink>
+        <NavLink href="/customers">Customers</NavLink>
+        <NavLink href="/contact">Contacts US</NavLink>
+        <NavLink href="/about">About</NavLink>
       </NavBar>
       <IconButton onClick={toggleNavBarVisibility}>
         <FontAwesomeIcon icon="bars" />

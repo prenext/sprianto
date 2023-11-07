@@ -6,4 +6,5 @@ export const NavLink = styled.a`
       color: white;
       padding: 10px;
       border:1px solid white;
+      cursor: pointer;
 `;

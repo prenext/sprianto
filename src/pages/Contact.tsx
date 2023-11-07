@@ -1,6 +1,7 @@
 function Contact(){
       return(
             <>
+            Contact
             </>
       );
 }
