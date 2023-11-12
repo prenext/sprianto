@@ -6,6 +6,10 @@ import { FootNavs } from "./FootNavs.styled";
 import { Copyrights } from './Copyrights.styled';
 import { Info } from '../text/Info.styled';
 import { WelcomeContainer } from './WelcomeContainer.styled';
+import { Carousel } from './Carousel.styled';
+import { Centered } from './Centered.styled';
+import { SpacedRow } from './SpacedRow.styled';
+import { SpacedColumn } from './SpacedColumn.styled';
 
 
 
@@ -18,4 +22,8 @@ export {
   Copyrights,
   Info,
   WelcomeContainer,
+  Centered,
+  SpacedRow,
+  SpacedColumn,
+  Carousel
 };

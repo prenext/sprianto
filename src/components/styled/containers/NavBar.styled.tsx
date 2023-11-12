@@ -1,13 +1,6 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
-const animateNavBar = keyframes`
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-`;
+
 
 export const NavBar = styled.nav<{ $isVisible?: boolean }>`
   width: 60vw;
@@ -26,10 +19,10 @@ export const NavBar = styled.nav<{ $isVisible?: boolean }>`
   height: 100vh;
   transform: ${(props) =>
     props.$isVisible ? "translateX(0%)" : "translateX(-100%)"};
-  animation: ${animateNavBar} 1s;
   transition: transform 1s ease-in-out, visibility 1s ease-in-out;
   visibility: ${(props) => (props.$isVisible ? "visible" : "hidden")};
   &:hover {
     background-color: #0056b3;
   }
+  z-index: 101;
 `;
