@@ -1,14 +1,17 @@
 import styled from "styled-components";
 
-export const AppBar = styled.header`
+export const AppBar = styled.header<{ $scrollTop: number }>`
   width: 100%;
-  height: 7vh;
+  height: ${(props) => (props.$scrollTop > 100 ? "7vh" : "10vh")};
   margin: 0;
-  background-color: #0000ff00;
+  background-color: ${(props) =>
+    props.$scrollTop > 100 ? "#ffffff8d" : "#18b62da6"};
   top: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
+  position: ${(props) => (props.$scrollTop > 100 ? "fixed" : "")};
   padding: 0 2%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: height 1s, position 1s;
 `;

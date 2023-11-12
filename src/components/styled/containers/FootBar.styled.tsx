@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const FootBar = styled.footer`
-  background-color: black;
-  color: white;
+  background: linear-gradient(to bottom, transparent, #001b2ccc);
   display: flex;
   align-items: center;
   flex-direction: column;

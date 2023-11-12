@@ -1,3 +1,5 @@
+import { Marked } from './Marked.styled'
+import { Paragraph } from './Paragraph.styled'
 import { WelcomeText } from './WelcomeText.styled'
 
-export { WelcomeText }
+export { WelcomeText, Paragraph, Marked }

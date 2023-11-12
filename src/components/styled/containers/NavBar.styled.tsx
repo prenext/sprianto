@@ -18,15 +18,17 @@ export const NavBar = styled.nav<{ $isVisible?: boolean }>`
   flex-direction: column;
   position: fixed;
   box-sizing: border-box;
-  overflow:hidden;
+  overflow: hidden;
   top: 0;
   left: 0;
   background-color: #0056b3d1;
   backdrop-filter: blur(100px);
   height: 100vh;
-  animation: ${animateNavBar} 1s; 
-  visibility: ${(props) =>
-    props.$isVisible ? "visible" : "hidden"};
+  transform: ${(props) =>
+    props.$isVisible ? "translateX(0%)" : "translateX(-100%)"};
+  animation: ${animateNavBar} 1s;
+  transition: transform 1s ease-in-out, visibility 1s ease-in-out;
+  visibility: ${(props) => (props.$isVisible ? "visible" : "hidden")};
   &:hover {
     background-color: #0056b3;
   }
