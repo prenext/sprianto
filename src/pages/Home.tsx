@@ -8,11 +8,7 @@ function Home() {
       <WelcomeBG />
       <WelcomeContainer>
         <WelcomeText>
-          Sprianto IQ <br />
-          Biodigester solutuions
-          <br />
-          making changes
-          <br />
+          Sprianto IQ
         </WelcomeText>
       </WelcomeContainer>
     </>
