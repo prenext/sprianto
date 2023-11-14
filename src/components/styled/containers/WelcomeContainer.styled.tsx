@@ -5,7 +5,7 @@ export const WelcomeContainer = styled.section`
   width: 100%;
   box-sizing: border-box;
   height: 90vh;
-  background: linear-gradient(to bottom, #18b62d99, #052f8bba);
+  /* background: linear-gradient(to bottom, #18b62d99, #052f8bba); */
   overflow-x: hidden;
   padding: 2.5%;
 `;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 export const NavBar = styled.nav<{ $isVisible?: boolean }>`
-  width: 60vw;
+  width: 55vw;
   display: flex;
   align-items: start;
   box-shadow: 1px 2px 5px #000000a7;
@@ -12,11 +12,12 @@ export const NavBar = styled.nav<{ $isVisible?: boolean }>`
   position: fixed;
   box-sizing: border-box;
   overflow: hidden;
-  top: 0;
+  top: 1vh;
   left: 0;
-  background-color: #0056b3d1;
+  background-color: #ffffffb3;
   backdrop-filter: blur(100px);
-  height: 100vh;
+  height: 98vh;
+  border-radius: 0 15px 15px 0;
   transform: ${(props) =>
     props.$isVisible ? "translateX(0%)" : "translateX(-100%)"};
   transition: transform 1s ease-in-out, visibility 1s ease-in-out;

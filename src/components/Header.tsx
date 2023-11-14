@@ -6,7 +6,7 @@ import { LogoImage } from "./styled/images/Images";
 import { useState, useEffect } from "react";
 
 function Header() {
-  const [isNavBarVisible, setIsNavBarVisible] = useState(true);
+  const [isNavBarVisible, setIsNavBarVisible] = useState(false);
 
   const toggleNavBarVisibility = () => {
     setIsNavBarVisible(!isNavBarVisible);
@@ -44,7 +44,7 @@ function Header() {
            Services
         </NavLink>
         <NavLink href="/customers">
-          <FontAwesomeIcon icon="stop" />
+          <FontAwesomeIcon icon="user" />
            Customers
         </NavLink>
         <NavLink href="/contact">

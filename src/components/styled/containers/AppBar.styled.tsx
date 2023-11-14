@@ -5,7 +5,7 @@ export const AppBar = styled.header<{ $scrollTop: number }>`
   height: ${(props) => (props.$scrollTop > 100 ? "7vh" : "10vh")};
   margin: 0;
   background-color: ${(props) =>
-    props.$scrollTop > 100 ? "#ffffff8d" : "#18b62d99"};
+    props.$scrollTop > 100 ? "#ffffff" : "#ffffff99"};
   top: 0;
   box-sizing: border-box;
   position: ${(props) => (props.$scrollTop > 100 ? "fixed" : "")};
